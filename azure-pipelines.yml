@@ -19,7 +19,7 @@ steps:
   displayName: 'Use .Net SDK 5.x'
   inputs:
    packageType: sdk
-     verbose: '5.x'
+   version: '5.x'
 
 -task: Npm@1
  displayName: 'Run npm install'
